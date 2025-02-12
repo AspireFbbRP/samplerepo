@@ -1,8 +1,5 @@
 //Input: b!!!c.d.e,f'g,hij
 
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
-
 class Main {
     public static void main(String[] args) {
         String s = "b!!!c.d.e,f'g,hij";
