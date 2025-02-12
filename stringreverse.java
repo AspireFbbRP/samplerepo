@@ -1,4 +1,4 @@
-Input: b!!!c.d.e,f'g,hij
+//Input: b!!!c.d.e,f'g,hij
 
 // Online Java Compiler
 // Use this editor to write, compile and run your Java code online
@@ -30,4 +30,4 @@ class Main {
     }
 }
 
-Output: Answer is : j!!!i.h.g,f'e,dcb
+//Output: Answer is : j!!!i.h.g,f'e,dcb
