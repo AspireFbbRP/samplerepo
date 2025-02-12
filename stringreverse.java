@@ -1,4 +1,4 @@
-//Input: b!!!c.d.e,f'g,hij
+Input: b!!!c.d.e,f'g,hij
 
 class Main {
     public static void main(String[] args) {
@@ -27,4 +27,4 @@ class Main {
     }
 }
 
-//Output: Answer is : j!!!i.h.g,f'e,dcb
+Output: Answer is : j!!!i.h.g,f'e,dcb
