@@ -1,4 +1,5 @@
-Input: b!!!c.d.e,f'g,hij
+//Input: b!!!c.d.e,f'g,hij
+//Output: Answer is : j!!!i.h.g,f'e,dcb
 
 class Main {
     public static void main(String[] args) {
@@ -26,5 +27,3 @@ class Main {
         System.out.println("Answer is : "+rs);
     }
 }
-
-Output: Answer is : j!!!i.h.g,f'e,dcb
