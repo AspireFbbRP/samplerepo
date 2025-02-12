@@ -1,0 +1,33 @@
+Input: b!!!c.d.e,f'g,hij
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        String s = "b!!!c.d.e,f'g,hij";
+        
+        char[] charArr = s.toCharArray();
+        int r = charArr.length - 1, l = 0;
+        
+        while (l < r) {
+            if (!Character.isAlphabetic(charArr[l])) {
+                l++;
+            } else if (!Character.isAlphabetic(charArr[r])) {
+                r--;
+            }
+            
+            else {
+                char c = charArr[l];
+                charArr[l] = charArr[r];
+                charArr[r] = c;
+                l++;
+                r--;
+            }
+        }
+        String rs = new String(charArr);
+        System.out.println("Answer is : "+rs);
+    }
+}
+
+Output: Answer is : j!!!i.h.g,f'e,dcb
