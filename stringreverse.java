@@ -3,7 +3,7 @@
 
 class Main {
     public static void main(String[] args) {
-        String s = "k,f'gd.e..':,hijb!!!c.d.e";
+        String s = "k,f'.e..':,hijb!!!c.d.e";
         
         char[] charArr = s.toCharArray();
         int r = charArr.length - 1, l = 0;
